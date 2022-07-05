@@ -1,0 +1,375 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x:hidden ;
+    
+}
+header{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-bottom: 10vh;
+}.header-image{
+    position: absolute;
+    top: -20vh;
+    z-index:-1;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1vh 10vw;
+}
+
+.nav-bar{
+    display: flex;
+}
+.nav-bar li{
+    font-size: 1em;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 30px;
+    list-style: none;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+.logo{
+    width: 30vh;
+}
+.head h3{
+    font-size: 2.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+.search{
+    display: flex;
+    justify-content: flex-start;
+    width: 55vw;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    padding:5px 0 ;
+}
+.search input{
+    outline: none;
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+.search p{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px ;
+    border-right: 1px solid gray;
+    padding-right: 10px;
+}
+.search i:first-child{
+    font-size: 20px;
+    color: rgb(252, 119,119 );
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search i{
+    color: gray;
+    padding-left: 10px;
+}
+.d1{
+    margin-top: 60px;
+    margin-left: 200px;
+    margin-right: 1415px;
+    border: 2px solid black;
+    width: 30%;
+    
+    
+}
+.sec-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 13vh;
+}
+.box{
+    position: relative;
+    width: 805px;
+    margin: 3px 5px;
+    overflow: hidden;
+    box-shadow: 0px 1px 4px gray ;
+    border-radius: 15px;
+    background-color: rgb(243, 240,240);
+    margin-left: 30px;
+}
+.box image{
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid grey;
+    z-index:-1;
+}
+.white{
+    position: absolute;
+    bottom: 3px;
+    background-color: white;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    height: 25%;
+    z-index: 2;
+}
+.white p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: rgb(56,56, 56);
+    letter-spacing: 0.7px;
+}
+.middle{
+    margin: 60px 150px;
+}
+.sec-2 h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin: 10px;
+}
+.sidedetails{
+    display: flex;
+}
+.sec-2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.sec-2 h6{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: lighter;
+    color:rgb(99,98, 98);
+}
+.fa-caret-right, .sec-2 span{
+    color:rgb(252, 119,119 ) ;
+}
+.box-1{
+    width: 335px;
+    height: 400px ;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+}
+.box-1 div{
+    position: absolute;
+    background: linear-gradient(transparent,black);
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    bottom: 0;
+}
+.box-1 div span:first-child{
+  display: inline-block;
+  color: white;
+  padding-left: 10px;
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+}
+.box-1 i{
+    color: white;
+    padding-bottom: 15px;
+
+}
+.box-1 img{
+    width: 335px;
+    height: 400px;
+    object-fit: cover;
+
+}
+.sec-3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 130px;
+    justify-content: space-between;
+}
+.box-2{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    
+    box-shadow:  2px 2px 2px 2px gray ;
+    box-sizing: border-box;
+    width: 500px;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+
+
+.sec{
+    margin-top: 25px;
+    display: flex;
+    justify-content:space-between;
+}
+.place{
+    
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
+.place li{
+    list-style: none;
+}
+.symbol{
+    width: 100px;
+    margin-top: 49px;
+    margin-left: 56px;
+}
+.place p{
+    margin-bottom: 20px;
+} 
+.poothol{
+    font-size: 20px;
+    color: #1c1c1c;
+    font-family: sans-serif;
+}
+.pop{
+    color: #363636;
+    font-family: sans-serif;
+    font-size: 36px;
+}
+.image{
+    margin-top: 300px;
+    margin-left: 300px;
+
+}
+.image h1{
+    margin-left: 560px;
+    font-size: 60px;
+    font-family:sans-serif;
+    margin-top: 40px;
+
+}
+.btn{
+    background-color:#Ef4f5f;
+    color: white;
+}
+.rd{
+    background-color: #Ef4f5f;
+}
+.app{
+    font-size: 14px;
+    color: #9c9c9c;
+}
+.linkk{
+    margin-left: 809px;
+    /* margin-bottom: 595px; */
+    margin-top: -500px;
+}
+.explore{
+    margin-top: 400px;
+    margin-left: 300px;
+    font-size: 20px;
+    color: #363636;
+    font-family: Helvetica, sans-serif;
+}
+.box-3{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    
+    box-shadow:  2px 2px 2px 2px gray ;
+    box-sizing: border-box;
+    width: 1800px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+.near{
+    font-size: 20px;
+    color: #1c1c1c;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.type1{
+    margin-top: 37px;
+}
+.type2{
+    margin-top: 37px;
+}
+.footer h1{
+    margin-left: 91px;
+    margin-top: 52px;
+}
+.list li{
+   list-style: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.foot{
+    
+    width: 90%;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+.box-4{
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    
+    box-shadow:  2px 2px 2px 2px gray ;
+    box-sizing: border-box;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+.sym{
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 97px;
+}
+.sym1{
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 97px;
+}  
+
+.z1{
+    display: flex;
+    justify-content:flex-end;
+}
+.place1{
+    margin-right: 30px;
+    display: flex;
+}
+.box-4 img{
+width: 50px;
+margin-top: 5px;
+margin-left: 20px;
+}
+.place2{
+    display: flex;
+
+}
+.sec-1{
+    display: flex;
+}
+.gpl{
+    margin-top: 18px;
+    width: 140px;
+}
+
